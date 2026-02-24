@@ -12,20 +12,16 @@ const personalDetails = [
     value: "Carlos Lima",
   },
   {
-    label: "Idade:",
-    value: "26",
-  },
-  {
     label: "Endereço:",
     value: "Maceió, Alagoas, Brasil",
   },
   {
     label: "Email:",
-    value: "dev.frontcarloslima@gmail.com",
+    value: "developercarloslima@gmail.com",
   },
   {
     label: "Tel.:",
-    value: "+55 82999953064",
+    value: "+55 8299178-2350",
   },
 ];
 

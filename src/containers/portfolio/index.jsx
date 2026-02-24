@@ -4,10 +4,10 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import crud from "../../img/crud.jpg";
 import movielist from "../../img/movie list.jpg";
 import landingPage from "../../img/landingpage.jpg";
-import landingPageMKD from "../../img/landingpageMKD.jpg";
+import EmBreve from "../../img/EmBreve.png";
 import Calculadora from "../../img/calculadora.jpg";
 import PeopleAPI from "../../img/People API.png";
-import APIlogin from '../../img/api-login.jpg';
+import APIlogin from "../../img/api-login.jpg";
 import "./style.scss";
 import { FaGithub } from "react-icons/fa6";
 import { GoProjectSymlink } from "react-icons/go";
@@ -36,13 +36,6 @@ const Portdata = [
   },
   {
     id: 2,
-    name: "Landing Page - MKD",
-    image: landingPageMKD,
-    linkProj: "https://gluco6naturalhealth.com/",
-    linkRepo: "https://github.com/devcarlosrlima/LandingpageMKD",
-  },
-  {
-    id: 2,
     name: "Calculadora",
     image: Calculadora,
     linkProj: "https://calculator-js-fcc.vercel.app/",
@@ -50,17 +43,24 @@ const Portdata = [
   },
   {
     id: 3,
-    name: 'API de Login e Registro',
+    name: "API de Login e Registro",
     image: APIlogin,
     linkProj: "https://api-login-vnr5.onrender.com",
     linkRepo: "https://github.com/devcarlosrlima/API-login",
   },
   {
     id: 3,
-    name: 'People API',
+    name: "People API",
     image: PeopleAPI,
     linkProj: "https://github.com/devcarlosrlima/People-API",
     linkRepo: "https://github.com/devcarlosrlima/People-API",
+  },
+  {
+    id: 4,
+    name: "Em breve - Metabol App",
+    image: EmBreve,
+    linkProj: "",
+    linkRepo: "",
   },
 ];
 
@@ -136,15 +136,16 @@ const Portfolio = () => {
                 {index === hovereValue && (
                   <div>
                     <p>{item.name}</p>
-                    <a  href={item.linkProj} target="_blank">
-                    <GoProjectSymlink size={40} />
+                    <a href={item.linkProj} target="_blank">
+                      <GoProjectSymlink size={40} />
                     </a>
-                     <a   className="linkRepo"                    
+                    <a
+                      className="linkRepo"
                       target="_blank"
                       href={item.linkRepo}
                     >
                       <FaGithub size={40} />
-                    </a> 
+                    </a>
                   </div>
                 )}
               </div>
