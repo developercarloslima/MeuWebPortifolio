@@ -27,13 +27,13 @@ Se você encontrar algum problema ou tiver sugestões de melhorias para o meu si
 
 - [Meu Site Pessoal](https://devcarloslima.vercel.app/)
 - [LinkedIn](https://www.linkedin.com/in/devcarloslima/)
-- [Outros Projetos no GitHub](https://github.com/devcarlosrlima/)
+- [Outros Projetos no GitHub](https://github.com/developercarloslima/)
 
 ## Contato
 
 Você pode me contatar através do formulário de contato no meu site ou pelos seguintes meios:
 
-- Email: dev.frontcarloslima@gmail.com
+- Email: developercarloslima@gmail.com
 - LinkedIn: [Meu Perfil](https://www.linkedin.com/in/devcarloslima/)
 
 
