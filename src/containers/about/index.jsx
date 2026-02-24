@@ -30,9 +30,11 @@ const personalDetails = [
 ];
 
 const jobSummary = `
-  eu me chamo Carlos Lima, nasci em 97 e tenho 26 anos, comecei a programar com 20 anos de idade, comecei fazendo landing pages para familiares e amigos, era apenas hobby, fazia aquilo porque eu gostava, somente em 2023 quando eu ja estava pra fazer 25 anos  foi que comecei a me dedicar de verdade a isso, comecei a estudar como softwares funcionavam e como eu conseguiria chegar ate aquele ponto, comecei a me dedicar, estudar de verdade as linguagens de programação e tive grande facilidade em aprender elas, acho que tenho talento pra isso, mas gosto também de acreditar que o esforço e trabalho duro ajudaram bastante, nao demorei muito pra dominar algumas linguagens como Java e JavaScript e framework como React...
+  Sou desenvolvedor Fullstack com foco em Backend e arquitetura de sistemas, especializado na construção de APIs REST utilizando Java (Spring Boot) e Node.js com TypeScript. Tenho experiência prática com PostgreSQL, modelagem de dados, autenticação com JWT, versionamento com Git e boas práticas de desenvolvimento.
 
-Atualmente eu to cursando Engenharia de Software na Faculdade Ampli, espero me formar em breve, e conseguir meu diploma, mas mais do que isso espero que possa conseguir trabalhar em uma boa empresa e colocar em pratica tudo que estudei e pratiquei nesse tempo em que estudei sozinho e também o tempo que estudei na faculdade.
+Atuo no desenvolvimento de aplicações web escaláveis, organizadas em camadas e orientadas a resolver problemas reais. Entre meus projetos, desenvolvi sistemas de gestão com controle financeiro e aplicações fullstack com persistência de dados, geração dinâmica de conteúdo estruturado e documentação de API com Swagger/OpenAPI.
+
+Tenho interesse em aprofundar meus conhecimentos em engenharia de software, cloud computing, segurança de aplicações e arquitetura distribuída. Busco oportunidades como Desenvolvedor Júnior onde possa contribuir com código limpo, mentalidade analítica e evolução contínua
 `;
 
 const About = () => {
