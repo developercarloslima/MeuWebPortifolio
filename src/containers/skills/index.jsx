@@ -9,7 +9,7 @@ import { Line } from "rc-progress";
 const Skills = () => {
   return (
     <section id="skills" className="skills">
-      <PageHeaderContent headerText="Minhas Habilidades" icon={<GiSkills size={40} />} />
+      <PageHeaderContent headerText="Habilidades" icon={<GiSkills size={40} />} />
 
       <div className="skills__content-wrapper">
         {skillsData.map((item) => (
