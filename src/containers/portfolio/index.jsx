@@ -135,6 +135,7 @@ const Portfolio = () => {
               <div className="overlay">
                 {index === hovereValue && (
                   <div>
+                    <p>{item.name}</p>
                     {item.linkProj && (
                       <a
                         href={item.linkProj}
