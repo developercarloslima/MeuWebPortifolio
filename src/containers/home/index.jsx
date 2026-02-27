@@ -13,7 +13,7 @@ const Home = () => {
           Oi! Eu sou Carlos Lima,
           <br />
           <ReactTyped
-            strings={[" Desenvolvedor Full Stack", "Engenheiro de Software!" ]}
+            strings={[" Desenvolvedor Full Stack", "Engenheiro de Software!"]}
             typeSpeed={50}
             backSpeed={60}
             startDelay={100}
@@ -38,6 +38,7 @@ const Home = () => {
           <a
             className="download"
             target="_blank"
+            ref="noopener noreferrer"
             href="https://drive.google.com/file/d/1zjEtt7XZ55w62EhctYYcFhMvaAnBGzWj/view?usp=sharing"
             download="Carlos.pdf"
           >
@@ -46,6 +47,7 @@ const Home = () => {
           <div>
             <a
               className="socialMedia"
+              ref="noopener noreferrer"
               target="__blank"
               href="https://github.com/developercarloslima"
             >
@@ -53,6 +55,7 @@ const Home = () => {
             </a>
             <a
               className="socialMedia"
+              ref="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/devcarloslima/"
             >
@@ -60,6 +63,7 @@ const Home = () => {
             </a>
             <a
               className="socialMedia"
+              ref="noopener noreferrer"
               target="_blank"
               href="https://w.app/developercarloslima"
             >

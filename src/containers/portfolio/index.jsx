@@ -136,12 +136,13 @@ const Portfolio = () => {
                 {index === hovereValue && (
                   <div>
                     <p>{item.name}</p>
-                    <a href={item.linkProj} target="_blank">
+                    <a href={item.linkProj}  target="_blank">
                       <GoProjectSymlink size={40} />
                     </a>
                     <a
                       className="linkRepo"
                       target="_blank"
+                  
                       href={item.linkRepo}
                     >
                       <FaGithub size={40} />
