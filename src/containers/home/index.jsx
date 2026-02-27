@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <section id="home" className="home" >
+    <section id="home" className="home">
       <div className="home__text-wrapper">
         <h1>
           Oi! Eu sou Carlos Lima,
@@ -38,33 +38,35 @@ const Home = () => {
           <a
             className="download"
             target="_blank"
-            ref="noopener noreferrer"
+            rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1zjEtt7XZ55w62EhctYYcFhMvaAnBGzWj/view?usp=sharing"
-            download="Carlos.pdf"
           >
             Baixar Currículo
           </a>
+
           <div>
             <a
               className="socialMedia"
-              ref="noopener noreferrer"
-              target="__blank"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://github.com/developercarloslima"
             >
               <FaGithub size={40} />
             </a>
+
             <a
               className="socialMedia"
-              ref="noopener noreferrer"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/devcarloslima/"
             >
               <FaLinkedin size={40} />
             </a>
+
             <a
               className="socialMedia"
-              ref="noopener noreferrer"
               target="_blank"
+              rel="noopener noreferrer"
               href="https://w.app/developercarloslima"
             >
               <SiWhatsapp size={40} />

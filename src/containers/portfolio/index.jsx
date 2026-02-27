@@ -128,25 +128,32 @@ const Portfolio = () => {
               onMouseLeave={() => handleHover(null)}
             >
               <div className="portfolio__content__cards__item__img-wrapper">
-                <a>
-                  <img src={item.image} alt="" />
-                </a>
+                <div>
+                  <img src={item.image} alt={item.name} />
+                </div>
               </div>
               <div className="overlay">
                 {index === hovereValue && (
                   <div>
-                    <p>{item.name}</p>
-                    <a href={item.linkProj}  target="_blank">
-                      <GoProjectSymlink size={40} />
-                    </a>
-                    <a
-                      className="linkRepo"
-                      target="_blank"
-                  
-                      href={item.linkRepo}
-                    >
-                      <FaGithub size={40} />
-                    </a>
+                    {item.linkProj && (
+                      <a
+                        href={item.linkProj}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <GoProjectSymlink size={40} />
+                      </a>
+                    )}
+                    {item.linkRepo && (
+                      <a
+                        className="linkRepo"
+                        href={item.linkRepo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub size={40} />
+                      </a>
+                    )}
                   </div>
                 )}
               </div>
